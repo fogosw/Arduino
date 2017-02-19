@@ -105,7 +105,7 @@ void loop()
     }
   }
 
-  sprintf(msg, "cmd=%c  range=%dcm", cmd, clearance);
+  sprintf(msg, "cmd=%c  range=%dcm connected=%s", cmd, clearance, (isSerialActive?"yes":"no"));
   Serial.println(msg);
 
   cmd = cmdOverride(cmd, clearance);
