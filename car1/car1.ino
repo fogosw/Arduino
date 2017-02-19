@@ -52,7 +52,7 @@ void setup()
 {
 
   // Turn on the display. Set brightness A number from 0 (lowest brightness) to 7 (hi).
-  display.setBrightness(0x04, true /*on*/);
+  display.setBrightness(0x03, true /*on*/);
 
   // We'll use the serial monitor to view the sonar output
   Serial.begin(9600);

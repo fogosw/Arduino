@@ -12,6 +12,7 @@ Notes
 -----
 * The main car chassis board contains a motor controler. It seems to be a clone of L293D H-Bridge
 * am using 2x 14500 Li-Ion batteries  ~3.7v each
+* To get the bluetooth working reliably: Use 3.3v on its power pin. Need to add a voltage divider to the bluetooth module's RX line to reduce the signal to 3.3v max. The voltage divider is made with 1 and 2k resisters, see [here](http://www.instructables.com/id/Cheap-2-Way-Bluetooth-Connection-Between-Arduino-a/) for more info.
 
 
 Visual Studio Code 
