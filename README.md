@@ -19,7 +19,6 @@ Visual Studio Code
 
 Am using VSCode with an Arduino plugin.
 Read about it ...
-Using Visual Studio Code as an ArduinoIDE
-https://github.com/fabienroyer/VisualStudioCodeArduino
-build&upload:  Ctrl-shift-p  then tasks, then run tasks, then --upload
-Build:  Ctrl-shift-b
+* Using Visual Studio Code as an ArduinoIDE  https://github.com/fabienroyer/VisualStudioCodeArduino
+* build&upload:  Ctrl-shift-p  then tasks, then run tasks, then --upload
+* Build:  Ctrl-shift-b
